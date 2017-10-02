@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Online Catalog</string>
+    <string name="context">You are registered as a seller. You can add your shop products here for the customers to see.
+        You can also view/edit them any time. Interested customers can contact directly to you.</string>
+    <string name="disclaimer">NOTE : Username once selected cannot be changed</string>
+    <string name="welcomeNote">Welcome to the Online Catalogue App. This App lets you put and showcase your Shop inventory online for customers.
+        It is not a platform to buy/purchase Items online, but customer can view the seller details and make contact with the seller.</string>
+</resources>

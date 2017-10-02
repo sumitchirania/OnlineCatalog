@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="com.chiru.sareesamrat.HomeScreen">
+
+    <TextView
+        android:id="@+id/home_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textSize="16dp"
+        android:layout_margin="8dp"
+        android:textColor="#1E88E5"
+        android:background="#DCE775"
+        android:padding="4dp"
+        android:text="@string/welcomeNote"/>
+
+    <Button
+        android:id="@+id/customer_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:background="#9E9E9E"
+        android:textColor="#1B5E20"
+        android:text="I am a customer"
+        android:layout_margin="50dp"
+        android:layout_below="@+id/home_text"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/seller_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:background="#123123"
+        android:layout_margin="40dp"
+        android:textColor="#00ffff"
+        android:text="I am a seller"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/customer_button"/>
+
+
+
+</RelativeLayout>
