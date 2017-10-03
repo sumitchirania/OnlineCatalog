@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.chiru.sareesamrat.NewActivity">
+    tools:context="com.catalog.onlineshop.NewActivity">
 
 
 
@@ -31,13 +31,12 @@
         android:id="@+id/fullView2"
         android:layout_below="@+id/fullView1"
         android:layout_margin="2dp"
-        android:inputType="textCapSentences"
         android:textSize="14sp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/fullView3"
         android:layout_margin="2dp"

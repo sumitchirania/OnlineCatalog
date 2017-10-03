@@ -1,4 +1,4 @@
-package com.chiru.sareesamrat;
+package com.catalog.onlineshop;
 
 import org.junit.Test;
 

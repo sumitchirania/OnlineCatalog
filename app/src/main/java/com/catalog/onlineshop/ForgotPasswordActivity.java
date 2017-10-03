@@ -1,4 +1,4 @@
-package com.chiru.sareesamrat;
+package com.catalog.onlineshop;
 
 import android.app.ProgressDialog;
 import android.content.Intent;

@@ -1,4 +1,4 @@
-package com.chiru.sareesamrat;
+package com.catalog.onlineshop;
 
 /**
  * Created by chiru on 15/9/16.
